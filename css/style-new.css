@@ -7734,6 +7734,11 @@ html:not(.lt-ie10) .not-animated {
 *
 * ToTop
 */
+.ui-to-top:before {
+	position: absolute;
+    top: 28%;
+    left: 37%;
+}
 .ui-to-top {
 	position: fixed;
 	right: 15px;
@@ -7744,7 +7749,7 @@ html:not(.lt-ie10) .not-animated {
 	font-size: 20px;
 	line-height: 44px;
 	color: #ffffff;
-	background: #1d0d44;
+	background: #153e4d;
 	overflow: hidden;
 	text-align: center;
 	text-decoration: none;
@@ -7760,7 +7765,8 @@ html:not(.lt-ie10) .not-animated {
 	top: 0;
 	width: 100%;
 	height: 100%;
-	background: #7b59d0;
+	background: #b5ebff00;
+	border:none;
 	transition: .25s;
 	transform: scale(1);
 	border-radius: 50%;
