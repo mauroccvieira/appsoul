@@ -8533,7 +8533,7 @@ html.tablet .ui-to-top {
 }
 
 .rd-navbar-fixed .rd-navbar-nav-wrap::-webkit-scrollbar-thumb {
-	background: #baa8e7;
+	background: #226c86;
 	border: none;
 	border-radius: 0;
 	opacity: .2;
@@ -8854,12 +8854,12 @@ html.tablet .ui-to-top {
 .rd-navbar-fixed .rd-navbar-panel {
 	color: #ffffff;
 	box-shadow: 0 0 2px 3px rgba(0, 0, 0, 0.05);
-	background: #1d0d44;
+	background: #58c0e6;
 }
 
 .rd-navbar-fixed .rd-navbar-nav-wrap {
 	color: #ffffff;
-	background: #1d0d44;
+	background: #58c0e6;
 	box-shadow: 0 0 2px 3px rgba(0, 0, 0, 0.05);
 }
 
@@ -8868,7 +8868,7 @@ html.tablet .ui-to-top {
 .rd-navbar-fixed .rd-nav-item.active .rd-nav-link,
 .rd-navbar-fixed .rd-nav-item.opened .rd-nav-link {
 	color: #ffffff;
-	background: #7b59d0;
+	background: #31738b;
 }
 
 .rd-navbar-fixed .rd-nav-item:hover>.rd-navbar-submenu-toggle,
@@ -9578,6 +9578,8 @@ html.rd-navbar-fixed-linked .page {
 }
 
 .rd-navbar-transparent.rd-navbar-static .brand-logo-light {
+	height:50px;
+	widht:50px;
 	display: block;
 }
 
