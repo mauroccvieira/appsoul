@@ -410,6 +410,9 @@ p [style*='max-width'] {
 .rd-navbar-fixed-linked .mobile-brand {
 	display: none;
 }
+.rd-navbar-fixed-linked .brand-logo-responsive {
+	height:40px;
+}
 
 /*
 *
@@ -9573,6 +9576,9 @@ html.rd-navbar-fixed-linked .page {
 	color: rgba(255, 255, 255, 0.6);
 }
 
+.rd-navbar-transparent.rd-navbar-static .brand-logo-responsive {
+	display:none;
+}
 .rd-navbar-transparent.rd-navbar-static .brand-logo-dark {
 	display: none;
 }
